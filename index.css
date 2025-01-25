@@ -27,7 +27,7 @@ body {
 
 
 
-
+/* Nav bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -65,8 +65,8 @@ body {
 
 
 
-
-
+/* Main */
+/* Landing container */
 
 .landing-container {
     display: flex;
@@ -121,12 +121,7 @@ body {
 
 
 
-
-
-
-
-
-
+/* Main Section */
 
 .main-section {
     max-width: 1200px;
@@ -231,12 +226,7 @@ body {
 
 
 
-
-
-
-
-
-
+/* Price Section */
 .price-section {
     max-width: 1200px;
     margin: 20px auto;
@@ -329,21 +319,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Education Section */
 
 .education-container {
     display: flex;
@@ -354,7 +330,8 @@ body {
 }
 
 .education-image img {
-    width: 300px; /* Adjust as per your requirement */
+    width: 300px;
+    /* Adjust as per your requirement */
     height: auto;
 }
 
@@ -389,7 +366,7 @@ body {
     text-decoration: underline;
 }
 
-.link::after{
+.link::after {
     content: '\f061';
     /* Unicode for Font Awesome right arrow */
     font-family: 'Font Awesome 5 Free';
@@ -405,7 +382,7 @@ body {
 
 
 
-
+/* Account Section */
 
 .account-section {
     display: flex;
@@ -442,35 +419,13 @@ body {
 }
 
 .account-button button:hover {
-    background-color: #2a6bbf; /* Hover effect */
+    background-color: #2a6bbf;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer Section */
 
 
 footer {
@@ -505,7 +460,7 @@ footer {
 }
 
 .footer-column ul li a {
-    color:#424242;
+    color: #424242;
     text-decoration: none;
 }
 
@@ -524,10 +479,11 @@ footer {
     padding: 20px 30px;
     font-size: 12px;
     line-height: 1.6;
-   
+
 }
 
-.footer-bottom span, .footer-bottom p {
+.footer-bottom span,
+.footer-bottom p {
     display: block;
     margin-bottom: 10px;
 }
