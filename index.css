@@ -15,7 +15,7 @@ body {
     /* Default font */
     line-height: 1.6;
     /* Better readability */
-    background-color: #f8f9fa;
+    background-color:white;
     /* Light background */
     color: #424242;
     /* Text color */
@@ -135,7 +135,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    align-items: start;
+    /* align-items: start; */
     margin-bottom: 70px;
 }
 
